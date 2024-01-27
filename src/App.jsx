@@ -1,17 +1,11 @@
-// Importing BrowserRouter and Route from react-router-dom
-//import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Nav } from './pages'
 
-// Import your components
-// import Navbar from './components/Navbar/Navbar';
-// import Button from './components/Button/Button';
-import Navbar from "./components/Navbar/Navbar";
-import Button from "./components/Button/Button";
-
-export default function App() {
+const App = () => {
   return (
-    <>
-     <Navbar/>
-     <Button/>
-    </>
-  );
+    <main>
+      <Nav/>
+    </main>
+  )
 }
+
+export default App
