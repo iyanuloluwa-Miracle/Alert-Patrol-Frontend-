@@ -2,11 +2,11 @@ import { alertPatrol2 } from "../assets/image";
 import Button from "../components/Button";
 function AboutPage() {
   return (
-    <section className="flex justify-between items-center max-xl:flex-col-reverse gap-10 max-container">
+    <section  id='#about-us' className="flex justify-between items-center max-xl:flex-col-reverse gap-10 max-container">
       <div className="flex-1">
         <img
           src={alertPatrol2}
-          alt="Shoe Promotion"
+          alt="Alert Patrol"
           width={773}
           height={687}
           className="object-contain w-full"
