@@ -28,9 +28,9 @@ function Hero() {
       <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:bg-hero bg-cover bg-center">
         <img
           src={alertPatrol}
-          alt="shoe colletion"
-          width={610}
-          height={502}
+          alt="alert Patrol"
+          width={410}
+          height={402}
           className="object-contain relative"
         />
       </div>
