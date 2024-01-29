@@ -1,7 +1,7 @@
 import hamburger from './hamburger.svg'
-import alert from './alert.svg'
-import map from './map.svg'
-import assessment from './assessment.svg'
+import alert from './alert.png'
+import map from './map.png'
+import assessment from './assessment.png'
 
 
 export {
