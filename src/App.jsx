@@ -1,4 +1,4 @@
-import { Nav, Hero, AboutPage } from './pages'
+import { Nav, Hero, AboutPage, Services } from './pages'
 
 const App = () => {
   return (
@@ -9,6 +9,9 @@ const App = () => {
       </section>
       <section className="padding">
         <AboutPage/>        
+      </section>
+      <section className="padding">
+        <Services/>        
       </section>
       
     </main>

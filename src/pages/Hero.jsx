@@ -22,7 +22,16 @@ function Hero() {
         Our platform empowers you to be a proactive force for change by reporting critical incidents such as pollution and fire outbreaks. 
         </p>
 
-        <Button label="Signup Now" />
+        <div className='flex flex-wrap gap-4'>
+          <Button label='Join Us'/>
+          <Button
+            label='Log in'
+            backgroundColor='bg-white'
+            borderColor='border-slate-gray'
+            textColor='text-slate-gray'
+          />
+        </div>
+
        
       </div>
       <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:bg-hero bg-cover bg-center">
