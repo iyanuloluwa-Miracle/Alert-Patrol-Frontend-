@@ -13,16 +13,16 @@ export const services = [
     {
         imgURL: map,
         label: "Report Incident",
-        subtext: "Enjoy seamless shopping with our complimentary shipping service."
+        subtext: "A user-friendly form enabling the reporting of incidents, with options to select incident types (e.g., pollution, fire)."
     },
     {
         imgURL: alert,
         label: "Incident Map",
-        subtext: "Experience worry-free transactions with our secure payment options."
+        subtext: "Interactive map displaying reported incidents"
     },
     {
         imgURL: assessment,
-        label: "My Reports",
-        subtext: "Our dedicated team is here to assist you every step of the way."
+        label: "Community Alerts",
+        subtext: "Get instant alerts on ongoing incidents with customizable settings based on your preferences and location."
     },
 ];
