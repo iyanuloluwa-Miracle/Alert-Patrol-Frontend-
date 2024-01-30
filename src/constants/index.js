@@ -1,4 +1,4 @@
-import { map,alert, assessment } from '../assets/icons'
+import { map,alert, assessment, facebook, instagram, twitter } from '../assets/icons'
 
 
 
@@ -25,4 +25,10 @@ export const services = [
         label: "Community Alerts",
         subtext: "Get instant alerts on ongoing incidents with customizable settings based on your preferences and location."
     },
+];
+
+export const socialMedia = [
+    { src: facebook, alt: "facebook logo" },
+    { src: twitter, alt: "twitter logo" },
+    { src: instagram, alt: "instagram logo" },
 ];

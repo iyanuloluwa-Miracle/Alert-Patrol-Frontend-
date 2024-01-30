@@ -2,11 +2,16 @@ import hamburger from './hamburger.svg'
 import alert from './alert.png'
 import map from './map.png'
 import assessment from './assessment.png'
-
+import instagram from './instagram.svg'
+import facebook from './facebook.svg'
+import twitter from './twitter.svg'
 
 export {
     hamburger,
     alert,
     map,
-    assessment
+    assessment,
+    instagram,
+    facebook,
+    twitter
 }
