@@ -32,3 +32,28 @@ export const socialMedia = [
     { src: twitter, alt: "twitter logo" },
     { src: instagram, alt: "instagram logo" },
 ];
+
+export const footerLinks = [
+    {
+        title: "About Us",
+        links: [
+            { name: "About us", link: "/" },
+            { name: "FAQs", link: "/" },
+        ],
+    },
+    {
+        title: "Help",
+        links: [
+            { name: "How it works", link: "/" },
+            { name: "Privacy policy", link: "/" },
+           
+        ],
+    },
+    {
+        title: "Get in touch",
+        links: [
+            { name: "Dina Iyanuloluwa", link: "iyanudina@gmail.com" },
+            { name: "Donate to the founder", link: "/" },
+        ],
+    },
+];

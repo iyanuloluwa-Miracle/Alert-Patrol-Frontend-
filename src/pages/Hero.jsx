@@ -37,8 +37,8 @@ function Hero() {
         <img
           src={alertPatrol}
           alt="Alert Patrol - A person reporting an incident"
-          width={410}
-          height={402}
+          width={530}
+          height={502}
           className="object-contain relative"
         />
       </div>

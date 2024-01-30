@@ -1,4 +1,4 @@
-import { Nav, Hero, AboutPage, Services } from './pages'
+import { Nav, Hero, AboutPage, Services, Footer } from './pages'
 
 const App = () => {
   return (
@@ -10,9 +10,12 @@ const App = () => {
       <section className="padding">
         <AboutPage/>        
       </section>
-      <section className="padding">
+      <section  className="padding-x py-10">
         <Services/>        
       </section>
+      <section className="bg-black padding-x padding-t pb-8">
+      <Footer/>
+    </section>
       
     </main>
   )

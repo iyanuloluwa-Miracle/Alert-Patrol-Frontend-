@@ -5,6 +5,9 @@ import assessment from './assessment.png'
 import instagram from './instagram.svg'
 import facebook from './facebook.svg'
 import twitter from './twitter.svg'
+import copyrightSign from './copyright-sign.svg'
+
+
 
 export {
     hamburger,
@@ -13,5 +16,6 @@ export {
     assessment,
     instagram,
     facebook,
-    twitter
+    twitter,
+    copyrightSign
 }
