@@ -1,12 +1,12 @@
-import { map,alert, assessment, facebook, instagram, twitter } from '../assets/icons'
+import { map, alert, assessment, facebook, instagram, twitter } from '../assets/icons'
 
 
 
 export const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#about-us", label: "About Us" },
-    { href: "#solutions", label: "Solution" },
-    { href: "#contact-us", label: "Contact Us" },
+    { href: "/", label: "Home" },
+    { href: "/about-us", label: "About Us" },
+    { href: "/solutions", label: "Solution" },
+    { href: "/contact-us", label: "Contact Us" },
 ];
 
 export const services = [
@@ -46,7 +46,7 @@ export const footerLinks = [
         links: [
             { name: "How it works", link: "/" },
             { name: "Privacy policy", link: "/" },
-           
+
         ],
     },
     {
