@@ -56,3 +56,13 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
 }
+.Services_card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.3s linear;
+  background-color: #f4f4f4;
+  border: 2px solid #00accf;
+}
+.Services_card {
+  border: 2px solid transparent;
+}
